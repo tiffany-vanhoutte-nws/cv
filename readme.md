@@ -11,5 +11,5 @@ Ce projet contient une structure de base pour une page web simple, incluant des 
 
 ## Instructions
 
-1. Importez ce dossier dans LocalWP pour le visualiser en local.
+1. Importez ce dossier dans LocalWP pour le visualiser en local-
 2. Modifiez les fichiers pour explorer les fonctionnalités de HTML, CSS et JavaScript.
