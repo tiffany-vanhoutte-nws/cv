@@ -1,15 +1,32 @@
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  margin: 1;
-  padding: 0;
-  background-color: #E0AFFF;
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&display=swap');
+.container {
+  display: flex;
+  align-items: center;  /* Centre verticalement */
+  justify-content: space-between;  /* Écarte le texte et l'image */
+  width: 80%; /* Ajuste la largeur selon ton besoin */
+  margin: 0 auto; /* Centre le conteneur */
 }
+.image {
+  width: 150px;
+  height: 150px; /* Ajuste la taille selon ton besoin */
+}
+.text {
+  flex: 1; /* Permet au texte de prendre tout l’espace disponible */
+  text-align: center; /* Centre le texte */
+}
+
+body {
+  font-family: "Gentium Plus", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #e6c0ff;
+    }
+
 
 header,
 footer {
   background-color: #E0AFFF;
-  color: #fff;
+  color: #000;
   padding: 1em 0;
   text-align: center;
 }
@@ -21,6 +38,7 @@ h1 {
 header li {
   display: inline;
   padding: 0 1em;
+  color: #000;
 }
 
 footer {
@@ -32,5 +50,3 @@ footer {
 footer p {
   margin: 0;
 }
-
-
