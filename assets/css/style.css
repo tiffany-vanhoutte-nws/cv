@@ -25,7 +25,7 @@ body {
 
 header,
 footer {
-  background-color: #E0AFFF;
+  background-color: #b784b7;
   color: #000;
   padding: 1em 0;
 }
@@ -76,6 +76,12 @@ header li {
   
   flex-direction: column;
   justify-content: flex-start;
+}
+
+.train {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
 }
 
 footer {
