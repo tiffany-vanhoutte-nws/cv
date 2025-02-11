@@ -45,7 +45,37 @@ h1 {
 header li {
   margin: 0 40px;
   color: #000;
+}
+.titre {
+  display: flex;
+  justify-content: center;
+  margin: 0.5 auto;
+}
+.info, .about, .para {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #b784b7;
+}
+.about {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  align-items: center;
   
+}
+.para {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+  
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 footer {
