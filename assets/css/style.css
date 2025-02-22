@@ -41,12 +41,29 @@ h1 {
   padding: 0;
   display: flex;
   justify-content: center;
-  align-content: space-between;
+  align-items: center;
 }
 
 header li {
   margin: 0 40px;
-  color: #fff;
+  padding: 10px 20px;
+  font-style: bold;
+  color: #000;
+  background-color: #BF00FF;
+  border: 2px solid #9400D3;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3 ease;
+}
+header li:hover {
+  background-color: #fa25cb;
+  border-color: #fff;
+  transform: translateY(-3px);
+}
+header li:active{
+  transform: translateY(1px);
 }
 .titre {
   display: flex;
@@ -90,6 +107,7 @@ header li {
     flex-direction: column;
     align-items: center;
     gap: 20px; 
+    font-size: 14px;
   }
 
   .para, .about {
@@ -139,14 +157,41 @@ div {
 
 .perso {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 70px;
-  
+  gap:10px;
+  flex-wrap: wrap;
+}
+.soft, .centre{
+  text-align: center;
+  flex:1;
+}
+
+.perso img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+@media (max-width:768px){
+  .perso{
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+  }
+.perso img{
+    width: 80%;
+    max-width:200px;
+  }
+.soft, .centre{
+    width:100%;
+  }
 }
 .perso li{
   list-style: none;
+}
+h2 {
+  color:#fa25cb ;
 }
 footer {
   position: relative;
